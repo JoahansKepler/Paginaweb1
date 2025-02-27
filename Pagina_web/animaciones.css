@@ -1,0 +1,38 @@
+/*Cambio de color con efecto suave*/
+
+.button {
+background-color: darkmagenta;/*establezco el color inicial*/
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s;  /*para la duracion de la transicion */
+}
+
+.button {
+    background-color: azure;
+    color:blueviolet;
+}
+
+/*Aumento del tamlanno del hover*/
+.card{
+
+    width: 200px;
+    height: 250px;
+    background-color: darkmagenta;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /*transocoon de aumento*/
+}
+.card:hover {
+    transform: scale(1.1); /*aumento del tamanno del hover*/
+}
+/*Sombra en elementos de texto*/
+.text {
+    font-size: 24px;
+    color: #333;
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .text:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
+  }
